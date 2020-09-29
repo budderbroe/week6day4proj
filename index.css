@@ -1,0 +1,112 @@
+body {
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+#commentSection {
+    background-color: #e0e0e0;
+    margin: 0 10% 0 10%;
+    padding: 0;
+}
+#commentPost {
+    background-color: white;
+    height: 100px;
+    line-height: 90px;;
+}
+#commentPost h1 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 56px;
+    display: flex;
+    justify-content: center;
+}
+#comments {
+    margin: 0;
+    padding: 0;
+    height: 82vh;
+    overflow-y: scroll;
+}
+#enterComment {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#textDisplayName {
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 5px;
+}
+#commentText {
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 350px;
+    padding: 5px;
+    margin-right: 0;
+}
+#submitButton {
+    border-radius: 3px;
+    border: 1px none black;
+    color: #adfff7;
+    padding: 5px 0px 5px 5px;
+    background: none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#submitButton:hover {
+    cursor: pointer;
+}
+.commentContent {
+    width: 90%;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 3px;
+    display: flex;
+    margin-top: 10px;
+}
+.commentContentText {
+    margin-left: 20px;
+    width: 90%;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.commentContent input {
+    color: #adfff7;
+    font-family: sans-serif;
+    font-size: 15px;
+    background: none;
+    border-radius: 3px;
+    border: 1px none black;
+}
+.commentContent input:hover {
+    cursor: pointer;
+}
+.editBox {
+    display: none;
+}
+.editBoxToggle{
+    background-color: white;
+    margin-left: 5%;
+    width: 90%;
+}
+.editBoxToggle input[type = submit] {
+    color: #adfff7;
+    font-family: sans-serif;
+    font-size: 15px;
+    background: none;
+    border-radius: 3px;
+    border: 1px none black;
+}
+.editBoxToggle input[type = submit]:hover {
+    cursor: pointer;
+}
+.editBoxToggle input[type = text] {
+    margin-left: 125px;
+    width: 300px;
+}
